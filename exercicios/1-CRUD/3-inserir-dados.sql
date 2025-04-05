@@ -7,3 +7,7 @@ INSERT INTO salario_classe VALUES
 
 
 -- Insira 1 nova classe salarial, sem declarar o atributo id_salario
+insert into salario_classe values (3,'nivel_3')
+
+
+select count(*) from salario_classe
