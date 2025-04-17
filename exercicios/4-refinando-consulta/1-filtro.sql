@@ -2,4 +2,4 @@
 SELECT tracks.Name AS 'Musica', albums.Title AS 'Album', artists.Name AS 'Artista'FROM tracks
 INNER JOIN albums ON tracks.AlbumId = albums.AlbumId
 INNER JOIN artists ON  artists.ArtistId = albums.ArtistId
-WHERE tracks.Name LIKE '%Nação%' AND albums.Title NOT LIKE 'Da Lama Ao Caos'
+WHERE artists.Name LIKE '%Nação%' AND albums.Title NOT LIKE 'Da Lama Ao Caos'
